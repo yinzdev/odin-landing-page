@@ -4,30 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>y.archviz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="header-hero">
-      <div class="header">
-        <img src="images/header-logo.jpg" alt="y.archviz Logo" />
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+    <div class="header-section">
+      <div class="navbar">
+        <div class="navbar-left">
+          <p class="header-logo">Header Logo</p>
+        </div>
+        <div class="navbar-right">
+          <ul style="list-style-type: none">
+            <li class="nav-link"><a href="#">About</a></li>
+            <li class="nav-link"><a href="#">Projects</a></li>
+            <li class="nav-link"><a href="#">Contact</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="hero">
-        <h1>y.archviz</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima iure
-          quis, corrupti laudantium officiis veritatis maxime modi perspiciatis
-          obcaecati soluta reprehenderit, ab adipisci quam, sed saepe.
-          Recusandae commodi officiis in!
-        </p>
-        <button class="btn" type="button" alt="View Projects Button">
-          View Projects
-        </button>
-        <img src="images/main-render.jpg" alt="Main Render" />
+      <div class="hero-section">
+        <div class="hero-left">
+          <h1>This website is awesome!</h1>
+          <p class="para">
+            This website has some subtext that goes under main title. Its
+            smaller font and color is lower contrast
+          </p>
+          <div><button type="button" class="btn">Our Projects</button></div>
+        </div>
+
+        <div class="hero-right">
+          <img
+            src="images/main-render.jpg"
+            alt="main render"
+            width="500"
+            height="auto"
+          />
+        </div>
       </div>
     </div>
   </body>
