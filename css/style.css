@@ -9,11 +9,13 @@ body {
 
 .header-section {
   background-color: #1f2937;
+  padding-top: 20px;
 }
 
 .header-logo {
   font-size: 24px;
   color: #f9faf8;
+  font-weight: 900;
 }
 
 .nav-link a {
@@ -51,12 +53,14 @@ h1 {
 .para {
   font-size: 18px;
   color: #e5e7eb;
+  width: 500px;
 }
 
 .hero-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 100px;
 }
 
 .hero-left,
@@ -64,4 +68,22 @@ h1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.hero-left {
+  margin-bottom: 140px;
+  margin-left: 50px;
+}
+
+img {
+  margin-left: 110px;
+  margin-bottom: 125px;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #3882f6;
 }
