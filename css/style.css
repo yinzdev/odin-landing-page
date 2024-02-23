@@ -86,6 +86,10 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   background-color: #3882f6;
+  border: 2px solid #3882f6;
+  border-radius: 5px;
+  color: #e5e7eb;
+  font-weight: bold;
 }
 
 h2 {
@@ -143,4 +147,62 @@ h2 {
   font-weight: 900;
   align-self: flex-end;
   padding-top: 10px;
+}
+
+.call-action {
+  margin: 100px;
+}
+
+.call-container {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+h3 {
+  color: #e5e7eb;
+  padding: 0px;
+  margin: 0px;
+}
+
+.call-text {
+  color: #e5e7eb;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 100;
+}
+
+.signup-button {
+  border: 2px solid #e5e7eb;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.footer-container {
+  background-color: #1f2937;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  justify-content: center;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 35px;
+  margin-bottom: 0px;
+}
+
+.footer-text {
+  font-weight: 100;
 }
